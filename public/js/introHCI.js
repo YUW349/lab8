@@ -14,13 +14,9 @@ function initializePage() {
  	initCamera();
  	initGestures();
  	initRSVPForm();
- 	$("#testjs").click(function(e) {
-	
-		$("#testjs").text("Please wait...");
-	
-	});
+ 	
 
- 	 $(".judge-img").click(initGestures);
+ 	
 }
 
 
